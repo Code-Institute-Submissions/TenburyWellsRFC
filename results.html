@@ -1,70 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="icon" href="https://i.imgur.com/6m3cNUH.jpg" type="image/png" sizes="16x16">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-	<script type="text/javascript" src="assets/scripts/scripts.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      href="https://i.imgur.com/6m3cNUH.jpg"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
+    <script type="text/javascript" src="assets/scripts/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/index.css">
-	<title>Tenbury Wells RFC</title>
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/results.css" />
+    <title>Tenbury Wells RFC</title>
+  </head>
 
-<body>
-	<!--Header/Navigation-->
-	<!--Navigation code taken from https://bootsnipp.com/snippets/kl8Q3 then adapted for the project-->
-	<div class="wrapper">
-		<header>
-			<nav>
-				<div class="menu-icon">
-					<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-				</div>
-				<div class="menu">
-					<ul>
-						<li class="menu-item"><a href="index.html" class="hvr-sweep-to-right">Home</a></li>
-						<li class="menu-item"><a href="results.html" class="hvr-sweep-to-right">Results</a></li>
-						<li class="menu-item"><a href="squad.html" class="hvr-sweep-to-right">Sqaud</a></li>
-						<li class="menu-item"><a href="#" class="hvr-sweep-to-right">News</a></li>
-					</ul>
-				</div>
-			</nav>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-12 col-md-6 offset-md-3">
-						<h1 class="text-center title">Tenbury Wells <span class="title-green">RFC</span></h1>
-					</div>
-				</div>
-			</div>
-		</header>
+  <body>
+    <!--Header/Navigation-->
+    <!--Navigation code taken from https://bootsnipp.com/snippets/kl8Q3 then adapted for the project-->
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+          </div>
+          <div class="menu">
+            <ul>
+              <li class="menu-item">
+                <a href="index.html" class="hvr-sweep-to-right">Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="results.html" class="hvr-sweep-to-right">Results</a>
+              </li>
+              <li class="menu-item">
+                <a href="squad.html" class="hvr-sweep-to-right">Sqaud</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="hvr-sweep-to-right">News</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 offset-md-3">
+              <h1 class="text-center title">
+                Tenbury Wells <span class="title-green">RFC</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </header>
 
-        <!--Footer-->
-		<footer class="container-fluid">
-			<h2 class="footer-title">Connect With <span class="footer-green">US</span></h2>
-				<ul class="list-inline social-links text-center">
-					<li class="list-inline-item">
-						<a target="_blank" href="https://www.facebook.com/TenburyRugby/">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<span class="sr-only">Facebook</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="https://twitter.com/tenburyrfc">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-							<span class="sr-only">Twitter</span>
-						</a>
-					</li>
-				</ul>
-	    </footer>
-	</div>
-</body>
+      <!--League Table-->
+      <div class="content">
+        <div class="col-12 subtitle">
+          <h2>Midlands Division 4 West Table</h2>
+          <div class="block-divider"></div>
+        </div>
+        <div class="container">
+          <table class="table table-hover table-borderless font">
+            <thead>
+              <tr>
+                <th scope="col">pos</th>
+                <th scope="col">team</th>
+                <th scope="col">played</th>
+                <th scope="col">points</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Upton-on-Severn</td>
+                <td>18</td>
+                <td>54</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Old Yardleians</td>
+                <td>16</td>
+                <td>54</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Bromyard</td>
+                <td>16</td>
+                <td>51</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Conventrians</td>
+                <td>17</td>
+                <td>51</td>
+              </tr>
+              <tr class="highlight">
+                <th scope="row">5</th>
+                <td>Tenbury Wells</td>
+                <td>16</td>
+                <td>46</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Old Wheatleyans</td>
+                <td>15</td>
+                <td>42</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Claverdon</td>
+                <td>17</td>
+                <td>39</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Conventrians</td>
+                <td>17</td>
+                <td>51</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Harbury</td>
+                <td>18</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>Birmingham Civil Service</td>
+                <td>15</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td>Kings Norton</td>
+                <td>16</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td>Dunlup</td>
+                <td>12</td>
+                <td>8</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
+      <!--Results and Fixtures-->
+      <div class="content">
+        <div class="col-12 subtitle">
+          <h2>Results and Fixtures</h2>
+          <div class="block-divider"></div>
+        </div>
+        <!--Accordion code taken from https://mdbootstrap.com/docs/jquery/javascript/accordion then adapted for the project-->
+        <div class="container">
+          <div class="accordion" id="Results">
+            <div class="card z-depth-0 bordered">
+              <div class="card-header" id="headingOne2">
+                <h4 class="mb-0">
+                  <button
+                    class="btn collapsed font"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne2"
+                    aria-expanded="true"
+                    aria-controls="collapseOne2"
+                  >
+                    September 2019
+                  </button>
+                </h4>
+              </div>
+              <div
+                id="collapseOne2"
+                class="collapse"
+                aria-labelledby="headingOne2"
+                data-parent="#Results"
+              >
+                <div class="card-body">
+                     <table class="table table-hover table-borderless font">
+                      <thead>
+                        <tr>
+                          <th scope="col" colspan="6">
+                            Saturday 14<sup>th</sup> September
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="loss">
+                          <th scope="row"></th>
+                          <td>Bromyard</td>
+                          <td>25</td>
+                          <td>-</td>
+                          <td>19</td>
+                          <td>Tenbury Wells</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="container">
+                    <table class="table table-hover table-borderless font">
+                      <thead>
+                        <tr>
+                          <th scope="col" colspan="6">
+                            Saturday 28<sup>th</sup> September
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="win">
+                          <th scope="row"></th>
+                          <td>Tenbury Wells</td>
+                          <td>8</td>
+                          <td>-</td>
+                          <td>5</td>
+                          <td>Claverdon</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card z-depth-0 bordered">
+              <div class="card-header" id="headingTwo2">
+                <h4 class="mb-0">
+                  <button
+                    class="btn collapsed font"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo2"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo2"
+                  >
+                    October 2019
+                  </button>
+                </h4>
+              </div>
+              <div
+                id="collapseTwo2"
+                class="collapse"
+                aria-labelledby="headingTwo2"
+                data-parent="#Results"
+              >
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                  beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                  beer farm-to-table, raw denim aesthetic synth nesciunt you
+                  probably haven't heard of them accusamus labore sustainable.
+                </div>
+              </div>
+            </div>
+            <div class="card z-depth-0 bordered">
+              <div class="card-header" id="headingThree2">
+                <h4 class="mb-0">
+                  <button
+                    class="btn collapsed font"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree2"
+                    aria-expanded="false"
+                    aria-controls="collapseThree2"
+                  >
+                    November 2019
+                  </button>
+                </h4>
+              </div>
+              <div
+                id="collapseThree2"
+                class="collapse"
+                aria-labelledby="headingThree2"
+                data-parent="#Results"
+              >
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                  beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                  beer farm-to-table, raw denim aesthetic synth nesciunt you
+                  probably haven't heard of them accusamus labore sustainable.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer-->
+      <footer class="container-fluid">
+        <h2 class="footer-title">
+          Connect With <span class="footer-green">US</span>
+        </h2>
+        <ul class="list-inline social-links text-center">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/TenburyRugby/">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <span class="sr-only">Facebook</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://twitter.com/tenburyrfc">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <span class="sr-only">Twitter</span>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    <!--Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

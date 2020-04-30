@@ -1,0 +1,24 @@
+/*------Results Table-*/
+
+.font {
+    font-family: "Roboto Condensed",sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.highlight {
+    background-color: #005214;
+}
+
+/*------Accordian-*/
+
+.loss {
+    background-color: #ffc6c4;
+}
+
+.win {
+    background-color: #90ee90;
+}
+
+
