@@ -1,4 +1,4 @@
-/*------Results Table-*/
+/*------League Table-*/
 
 .font {
     font-family: "Roboto Condensed",sans-serif;
@@ -11,7 +11,7 @@
     background-color: #005214;
 }
 
-/*------Accordian-*/
+/*------Results/Fixtures Table-*/
 
 .loss {
     background-color: #ffc6c4;
@@ -21,4 +21,6 @@
     background-color: #90ee90;
 }
 
-
+.no-result {
+    background-color: #d3d3d3;
+}
