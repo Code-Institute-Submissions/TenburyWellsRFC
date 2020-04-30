@@ -1,0 +1,65 @@
+/*------Blockdivider-*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #005214;
+}
+
+/*------News-*/
+
+.page-header {
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: "Roboto Condensed",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-family: "Roboto Condensed",sans-serif;
+    text-align: justify;
+}
+
+.read-more {
+    font-family: "Roboto Condensed",sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*------Buttons-*/
+
+.btn-green {
+    background-color: #005214;
+    border-color: #005214;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn-green:hover,
+.btn-green:active,
+.btn-green:focus,
+.btn-green:active:focus {
+    background-color: #005214;
+    border-color: #005214;
+}
+
