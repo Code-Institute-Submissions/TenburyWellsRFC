@@ -63,3 +63,11 @@ p {
     border-color: #005214;
 }
 
+/*------Sponsors-*/
+
+.sponsor-image {
+    height: auto;
+    width: 160;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
