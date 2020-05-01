@@ -1,0 +1,30 @@
+/*------Text over Images taken from https://www.w3schools.com/howto/howto_css_image_text.asp and adapted for the project-*/
+
+.container {
+  padding-bottom: 20px;
+}
+
+.text-block {
+  background-color: #000000;
+  color: #ffffff;
+  width: 240px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+div h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+div h5 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}

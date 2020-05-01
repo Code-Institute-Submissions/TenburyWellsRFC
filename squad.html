@@ -1,70 +1,494 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="icon" href="https://i.imgur.com/6m3cNUH.jpg" type="image/png" sizes="16x16">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-	<script type="text/javascript" src="assets/scripts/scripts.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      href="https://i.imgur.com/6m3cNUH.jpg"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
+    <script type="text/javascript" src="assets/scripts/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/index.css">
-	<title>Tenbury Wells RFC</title>
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/squad.css" />
+    <title>Tenbury Wells RFC</title>
+  </head>
 
-<body>
-	<!--Header/Navigation-->
-	<!--Navigation code taken from https://bootsnipp.com/snippets/kl8Q3 then adapted for the project-->
-	<div class="wrapper">
-		<header>
-			<nav>
-				<div class="menu-icon">
-					<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-				</div>
-				<div class="menu">
-					<ul>
-						<li class="menu-item"><a href="index.html" class="hvr-sweep-to-right">Home</a></li>
-						<li class="menu-item"><a href="results.html" class="hvr-sweep-to-right">Results</a></li>
-						<li class="menu-item"><a href="squad.html" class="hvr-sweep-to-right">Sqaud</a></li>
-						<li class="menu-item"><a href="#" class="hvr-sweep-to-right">News</a></li>
-					</ul>
-				</div>
-			</nav>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-12 col-md-6 offset-md-3">
-						<h1 class="text-center title">Tenbury Wells <span class="title-green">RFC</span></h1>
-					</div>
-				</div>
-			</div>
-		</header>
+  <body>
+    <!--Header/Navigation-->
+    <!--Navigation code taken from https://bootsnipp.com/snippets/kl8Q3 then adapted for the project-->
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+          </div>
+          <div class="menu">
+            <ul>
+              <li class="menu-item">
+                <a href="index.html" class="hvr-sweep-to-right">Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="results.html" class="hvr-sweep-to-right">Results</a>
+              </li>
+              <li class="menu-item">
+                <a href="squad.html" class="hvr-sweep-to-right">Sqaud</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="hvr-sweep-to-right">News</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 offset-md-3">
+              <h1 class="text-center title">
+                Tenbury Wells <span class="title-green">RFC</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </header>
 
-        <!--Footer-->
-		<footer class="container-fluid">
-			<h2 class="footer-title">Connect With <span class="footer-green">US</span></h2>
-				<ul class="list-inline social-links text-center">
-					<li class="list-inline-item">
-						<a target="_blank" href="https://www.facebook.com/TenburyRugby/">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<span class="sr-only">Facebook</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="https://twitter.com/tenburyrfc">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-							<span class="sr-only">Twitter</span>
-						</a>
-					</li>
-				</ul>
-	    </footer>
-	</div>
-</body>
+      <!--Players and Coaches, code taken from https://www.w3schools.com/howto/howto_css_image_text_blocks.asp and adapted for the project-->
+      
+      <div class="content">
+        <div class="col-12 subtitle">
+          <h2>Coaches</h2>
+          <div class="block-divider"></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="container center">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710934_2405.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Andrew Black"
+                />
+                <div class="text-block">
+                  <h4>Andrew Black</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container center">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1490114128_0.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Andrew Black"
+                />
+                <div class="text-block">
+                  <h4>Ian Watts</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 subtitle">
+          <h2>Forwards</h2>
+          <div class="block-divider"></div>
+        </div>
+        <div class="container center">
+          <div class="row">
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1477950757_8631.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Ben Fillery"
+                />
+                <div class="text-block">
+                  <h4>Ben Fillery</h4>
+                  <h5>Loose-Head Prop</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1480022186_0.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Joe Partridge"
+                />
+                <div class="text-block">
+                  <h4>Charlie Ayres</h4>
+                  <h5>Loose-Head Prop</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710844_7348.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Sam Thompson"
+                />
+                <div class="text-block">
+                  <h4>Sam Thompson</h4>
+                  <h5>Loose-Head Prop</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710676_2137.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Jacob Thomas"
+                />
+                <div class="text-block">
+                  <h4>Jacob Thomas</h4>
+                  <h5>Hooker</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710808_9035.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Callum Redding"
+                />
+                <div class="text-block">
+                  <h4>Callum Redding</h4>
+                  <h5>Hooker</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710558_9052.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Craig Curtis"
+                />
+                <div class="text-block">
+                  <h4>Craig Curtis</h4>
+                  <h5>Tight-Head Prop</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710999_6294.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Jon Hitchings"
+                />
+                <div class="text-block">
+                  <h4>Jon Hitchings</h4>
+                  <h5>Tight-Head Prop</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1480022244_0.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Joe Partridge"
+                />
+                <div class="text-block">
+                  <h4>Joe Partridge</h4>
+                  <h5>Tight-Head Prop</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fholders%2Fnew-200x200.png&h=240&w=240&t=square&o=jpg"
+                  alt="Josh Thompson"
+                />
+                <div class="text-block">
+                  <h4>Josh Thompson</h4>
+                  <h5>Tight-Head Prop</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2Fimage_58acb4368f904.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Bert Davies"
+                />
+                <div class="text-block">
+                  <h4>Bert Davies</h4>
+                  <h5>Second Row</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fholders%2Fnew-200x200.png&h=240&w=240&t=square&o=jpg"
+                  alt="Charlie Cunningham"
+                />
+                <div class="text-block">
+                  <h4>Charlie Cunningham</h4>
+                  <h5>Second Row</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710693_2553.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Charlie Greig"
+                />
+                <div class="text-block">
+                  <h4>Charlie Greig</h4>
+                  <h5>Second Row</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710968_6437.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Edward Bedhall"
+                />
+                <div class="text-block">
+                  <h4>Edward Bedhall</h4>
+                  <h5>Second Row</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1489698057_0.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Phil Parkes"
+                />
+                <div class="text-block">
+                  <h4>Phil Parkes</h4>
+                  <h5>Second Row</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1489440602_0.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Ben James"
+                />
+                <div class="text-block">
+                  <h4>Ben James</h4>
+                  <h5>Openside Flanker</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1489440874_0.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Fraser Young"
+                />
+                <div class="text-block">
+                  <h4>Fraser Young</h4>
+                  <h5>Blindside Flanker</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <img
+                  src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710725_5926.jpg&h=240&w=240&t=square&o=jpg"
+                  alt="Greg Powell"
+                />
+                <div class="text-block">
+                  <h4>Greg Powell</h4>
+                  <h5>Number 8</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 subtitle">
+            <h2>Backs</h2>
+            <div class="block-divider"></div>
+          </div>
+          <div class="container center">
+            <div class="row">
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fholders%2Fnew-200x200.png&h=240&w=240&t=square&o=jpg"
+                    alt="Zach Thompson"
+                  />
+                  <div class="text-block">
+                    <h4>Zach Thompson</h4>
+                    <h5>Scrum Half</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710643_8704.jpg&h=240&w=240&t=square&o=jpg"
+                    alt="Lawson Thomas"
+                  />
+                  <div class="text-block">
+                    <h4>Lawson Thomas</h4>
+                    <h5>Scrum Half</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710708_0339.jpg&h=240&w=240&t=square&o=jpg"
+                    alt="Claude Celton"
+                  />
+                  <div class="text-block">
+                    <h4>Claude Celton</h4>
+                    <h5>Fly Half</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1478346434_0.jpg&h=240&w=240&t=square&o=jpg"
+                    alt="Callum Spires"
+                  />
+                  <div class="text-block">
+                    <h4>Callum Spires</h4>
+                    <h5>Centre</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710984_0606.jpg&h=240&w=240&t=square&o=jpg"
+                    alt="Callum Gullis"
+                  />
+                  <div class="text-block">
+                    <h4>Callum Gullis</h4>
+                    <h5>Winger</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fholders%2Fnew-200x200.png&h=240&w=240&t=square&o=jpg"
+                    alt="Conner Roach"
+                  />
+                  <div class="text-block">
+                    <h4>Conner Roach</h4>
+                    <h5>Winger</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2Fimage_58acb4368ba7e.jpg&h=240&w=240&t=square&o=jpg"
+                    alt="Nick Webb"
+                  />
+                  <div class="text-block">
+                    <h4>Nick Webb</h4>
+                    <h5>Winger</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fholders%2Fnew-200x200.png&h=240&w=240&t=square&o=jpg"
+                    alt="James Martyn-Smith"
+                  />
+                  <div class="text-block">
+                    <h4>James Martyn-Smith</h4>
+                    <h5>Winger</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710774_8315.jpg&h=240&w=240&t=square&o=jpg"
+                    alt="Paddy Waite"
+                  />
+                  <div class="text-block">
+                    <h4>Paddy Waite</h4>
+                    <h5>Winger</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710541_5816.jpg&h=240&w=240&t=square&o=jpg"
+                    alt="Ricky Evans"
+                  />
+                  <div class="text-block">
+                    <h4>Ricky Evans</h4>
+                    <h5>Winger</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fholders%2Fnew-200x200.png&h=240&w=240&t=square&o=jpg"
+                    alt="Stuart Lewis"
+                  />
+                  <div class="text-block">
+                    <h4>Stuart Lewis</h4>
+                    <h5>Winger</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <img
+                    src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2F1466710896_8080.jpg&h=240&w=240&t=square&o=jpg"
+                    alt="Ben Spires"
+                  />
+                  <div class="text-block">
+                    <h4>Ben Spires</h4>
+                    <h5>Full Back</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!--Footer-->
+      <footer class="container-fluid">
+        <h2 class="footer-title">
+          Connect With <span class="footer-green">US</span>
+        </h2>
+        <ul class="list-inline social-links text-center">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/TenburyRugby/">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <span class="sr-only">Facebook</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://twitter.com/tenburyrfc">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <span class="sr-only">Twitter</span>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
