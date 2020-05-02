@@ -213,3 +213,7 @@ p {
     font-family: "Roboto Condensed",sans-serif;
     text-align: justify;
 }
+
+.center {
+  text-align: center;
+}
