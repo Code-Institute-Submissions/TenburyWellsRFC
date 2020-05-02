@@ -18,12 +18,12 @@
     />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     />
+    <script
+      src="https://kit.fontawesome.com/e7dccbc0d6.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -42,7 +42,7 @@
     <script type="text/javascript" src="assets/scripts/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
     <title>Tenbury Wells RFC</title>
   </head>
 
@@ -83,30 +83,108 @@
         </div>
       </header>
 
-      
+      <!--Contact Info-->
+      <div class="content">
+        <div class="col-12 subtitle">
+          <h2>New Players Always Welcome</h2>
+          <div class="block-divider"></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="new-players">
+                We are always happy to welcome new players from all backgrounds!
+                Do not hesitate to contact us. Training sessions are every
+                Tuesdays & Thursdays 19.00 at Palmers Meadow.
+              </p>
+              <p class="new-players">
+                Penlu,<br />Worcester Road,<br />Tenbury Wells,<br />Worcestershire,<br />WR15
+                8AP
+              </p>
+              <p class="new-players">
+                <i class="fas fa-phone"></i> 01584 891355
+              </p>
+              <p class="new-players">
+                <i class="fas fa-phone"></i> 07970 012436
+              </p>
+            </div>
+            <div class="col-md-6">
+              <!--iframe map-->
+              <iframe
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d862.3340146481968!2d-2.590946215659865!3d52.31511484269287!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd76641782f3171d!2sPenlu%20Sports%20Club!5e0!3m2!1sen!2sus!4v1588386903565!5m2!1sen!2sus"
+                frameborder="0"
+                style="border: 0;"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+          </div>
+          <!--Contact Form-->
+          <div class="row">
+            <div class="col">
+              <h3 class="contact-title">Want to get involved?</h3>
+              <h5 class="contact-subtitle">Send us a Message!</h5>
+              <form>
+                <div class="form-group font">
+                  <label for="Name">Name:</label>
+                  <input
+                    type="Text"
+                    class="form-control"
+                    id="Name"
+                    aria-describedby="Name"
+                  />
+                </div>
+                <div class="form-group font">
+                  <label for="email">Email address:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    aria-describedby="emailHelp"
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >We'll never share your email with anyone else.</small
+                  >
+                </div>
+                <div class="form-group font">
+                  <label for="text">About Yourself:</label>
+                  <textarea class="form-control" id="text" rows="3"></textarea>
+                </div>
+                <div class="form-row text-center">
+                  <div class="col">
+                    <button type="submit" class="btn btn-secondary btn-contact">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
 
-      
-
-      <!--Footer-->
-      <footer class="container-fluid">
-        <h2 class="footer-title">
-          Connect With <span class="footer-green">US</span>
-        </h2>
-        <ul class="list-inline social-links text-center">
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/TenburyRugby/">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="sr-only">Facebook</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://twitter.com/tenburyrfc">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <span class="sr-only">Twitter</span>
-            </a>
-          </li>
-        </ul>
-      </footer>
+        <!--Footer-->
+        <footer class="container-fluid">
+          <h2 class="footer-title">
+            Connect With <span class="footer-green">US</span>
+          </h2>
+          <ul class="list-inline social-links text-center">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.facebook.com/TenburyRugby/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://twitter.com/tenburyrfc">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
