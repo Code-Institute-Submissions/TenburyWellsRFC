@@ -1,21 +1,32 @@
 # Tenbury Wells RFC - Milestone 1 Project
-<div style="text-align:center;">
-<img src="https://raw.githubusercontent.com/filleben/TenburyWellsRFC/master/assets/images/TenburyRFC-preview.png"></img>
-</div>
 
+![Site Preview](assets/images/TenburyRFC-preview.png)
 ---
 
 This project is for my local rugby team based in Tenbury Wells, they currently use a generic Pitchero site like many other clubs around them. The goal of this project is to make the club standout with their own site, aswell as providing clear information for users, such as upcoming fixtures and results, club news, squad detials and include contact detials for any interested players, fans or sponsors.
 
 ## UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### User Goals
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+I expect that the majority of the users will fall into the following criteria:
 
-- As a user type, I want to perform an action, so that I can achieve a goal.
+⋅⋅*Be a player or coach from either Tenbury Wells RFC or a rival club
+⋅⋅*Be a supporter of the team
+⋅⋅*A local player looking to join the team
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### User Stories
+
+⋅⋅*As a user I want to view the latest club news, so that I can keep myself updated with the latest club news.
+⋅⋅*As a user I want to see the league table and results, so that I can see how the team is performing.
+⋅⋅*As a user I want to see the season fixtures, so that I can plan on attending the games.
+⋅⋅*As a user I want to be able to contact coaches, so that I can inquire about joining the team.
+⋅⋅*As a user I want the wesbite to both be visually appealing and easy to navigate, so I can easily find information and navigate to different pages.
+⋅⋅*As a user I want to be able to view the current squad, so that I can see what positions the team might need and see who is in the current squad.
+
+### Wireframes
+
+
 
 ## Features
 
