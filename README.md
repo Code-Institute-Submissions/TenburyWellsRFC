@@ -11,18 +11,18 @@ This project is for my local rugby team based in Tenbury Wells, they currently u
 
 I expect that the majority of the users will fall into the following criteria:
 
-⋅⋅* Be a player or coach from either Tenbury Wells RFC or a rival club
-⋅⋅* Be a supporter of the team
-⋅⋅* A local player looking to join the team
+- Be a player or coach from either Tenbury Wells RFC or a rival club
+- Be a supporter of the team
+- A local player looking to join the team
 
 ### User Stories
 
-⋅⋅* As a user I want to view the latest club news, so that I can keep myself updated with the latest club news.
-⋅⋅* As a user I want to see the league table and results, so that I can see how the team is performing.
-⋅⋅* As a user I want to see the season fixtures, so that I can plan on attending the games.
-⋅⋅* As a user I want to be able to contact coaches, so that I can inquire about joining the team.
-⋅⋅* As a user I want the wesbite to both be visually appealing and easy to navigate, so I can easily find information and navigate to different pages.
-⋅⋅* As a user I want to be able to view the current squad, so that I can see what positions the team might need and see who is in the current squad.
+- As a user I want to view the latest club news, so that I can keep myself updated with the latest club news.
+- As a user I want to see the league table and results, so that I can see how the team is performing.
+- As a user I want to see the season fixtures, so that I can plan on attending the games.
+- As a user I want to be able to contact coaches, so that I can inquire about joining the team.
+- As a user I want the wesbite to both be visually appealing and easy to navigate, so I can easily find information and navigate to different pages.
+- As a user I want to be able to view the current squad, so that I can see what positions the team might need and see who is in the current squad.
 
 ### Wireframes
 
