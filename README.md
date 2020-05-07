@@ -26,16 +26,18 @@ I expect that the majority of the users will fall into the following criteria:
 
 ### Wireframes
 
-[Here](../assets/wireframe/initial-designs) are initial designs I made for the site.
+[Here](https://github.com/filleben/TenburyWellsRFC/tree/master/assets/wireframes/initial-designs) are initial designs I made for the site.
 
 When I was making the site I made a few design changes which I believe improved both the visuals and ease of use. The major changes are:
 
 - Removed the title text and centered the navabar on all pages.
 - Moved the results and fixtures to below the league table on the results page.
 - Added a image carousel to the squad page.
-- Added a 4th page with conact information, map and contact form.
+- Added a 4th page with contact information, map and contact form.
 
-The final designs of the site can be found [Here](../assets/wireframe/final-designs)
+The final designs of the site can be found [here](https://github.com/filleben/TenburyWellsRFC/tree/master/assets/wireframes/final-designs)
+
+The wireframes were made using [Balsamiq](https://balsamiq.cloud)
 
 ## Features
 
