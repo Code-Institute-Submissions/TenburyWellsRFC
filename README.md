@@ -43,7 +43,7 @@ The wireframes were made using [Balsamiq](https://balsamiq.cloud)
 
 - **Font**: I wanted to use a single minimal font throughout the site, with this in mind I decided to use [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed?query=robot) from [Google Fonts](https://fonts.google.com/).
 
-- **Colours**: I wanted the the site to follow the Tenbury kit colours which are white black and green, I used white as a background colour with black text, dark green (#005214) for things like the block divider, title text and buttons, with a lighter green (#90ee90) for highlight text.
+- **Colours**: I wanted the the site to follow the Tenbury kit colours which are white black and green, I used white as a background colour with black text, dark green (#005214) for things like the block divider, title text and buttons, with a lighter green (#90ee90) for highlight text. Upon completion of the site I recieved feedback suggesting to change the background colour as it was very bright and therefor difficult on the eyes, so I made the decision to change the bacjground colour from white to light grey (#d8d8d8). With this change I also edited the sponsor images to better fit with the new background colour and uploaded them to the repository.
 
 ## Features
 
