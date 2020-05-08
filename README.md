@@ -39,29 +39,56 @@ The final designs of the site can be found [here](https://github.com/filleben/Te
 
 The wireframes were made using [Balsamiq](https://balsamiq.cloud)
 
+### Design Choices
+
+- **Font**: I wanted to use a single minimal font throughout the site, with this in mind I decided to use [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed?query=robot) from [Google Fonts](https://fonts.google.com/).
+
+- **Colours**: I wanted the the site to follow the Tenbury kit colours which are white black and green, I used white as a background colour with black text, dark green (#005214) for things like the block divider, title text and buttons, with a lighter green (#90ee90) for highlight text.
+
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-### Existing Features
-
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- **Navigation bar**: Allows user to navigate to all the pages of the site, consistent thoughout the site.
+- **News Section**: Allows users to view the four latest news articles so they can stay updated.
+- **Footer**: Contains links to all the clubs social media accounts, consistent thoughout the site.
+- **League Table**: Allows users to easily visualise the teams performance thoughout the season.
+- **Results and Fixtures**: Allows users to see the upcoming fixtures and past results, so that they could potenially attend upcoming matches.
+- **Squad Page**: Allows user to view the current coaches and players, so that they can see what positions the squad needs and who the coaches are.
+- **Image Carousel**: Shows users different squad pictures.
+- **Embedded Google Map**: Allows the users to view where the club is based and get directions to it.
+- **Contact Form**: Allows users to contact the club directly from the website, so that they can ask about anything.
 
 ### Features Left to Implement
 
-- Another feature idea
+- Read Me buttons setup to expand the news article on the home page.
+- Add a news archive so that more than the lasest four articles can be view on the site.
+- Add player stats to the squad page could potenially add a page for each player.
+- Fixtures, Results and League Table to automatically pull information from the RFU website.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+  - The project uses **HTML5** to provide the content and structure.
 
-- [JQuery](https://jquery.com)
-  - The project uses **JQuery** to simplify DOM manipulation.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+  - The project uses **CSS3** for styling.
+
+- [Bootstrap](https://getbootstrap.com/)
+  - The project uses **Bootstrap** for layout and responsiveness.
+
+- [Hover.css](https://ianlunn.github.io/Hover/)
+  - The project uses **Hover.css** for hover effects on links.
+
+- [Font Awesome](https://fontawesome.com)
+  - The project uses **Font Awesome** for social link icons.
+
+- [Google Fonts](https://fonts.google.com/)
+  - The project uses **Google Fonts** to provide the font used on the site.
+
+- [jQuery](https://jquery.com)
+  - The project uses **jQuery** for the navbar and the image carousel.
+
+- [JavaScript](https://jquery.com)
+  - The project uses **JavaScript** for the navbar scrolling effect.
 
 ## Testing
 
