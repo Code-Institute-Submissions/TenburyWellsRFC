@@ -90,48 +90,121 @@ The wireframes were made using [Balsamiq](https://balsamiq.cloud)
 - [JavaScript](https://jquery.com)
   - The project uses **JavaScript** for the navbar scrolling effect.
 
+- [GitPod](https://gitpod.io/)
+  - The project devloped in  **GitPod**.
+
+- [Git](https://git-scm.com/)
+  - The project uses **Git** for version control.
+
+- [GitHub](https://github.com/)
+  - The project uses **GitHub** to host the repository and for the live preview of the site.
+
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Testing Tools
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+#### I used the following tools and devices to test the website in several different scenarios. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
+  - The project used **Firefox Developer Tools** to test responsiveness, stlyes and different layouts thoughout development. This also allowed the site to be tested on several [mobile devices](https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode).
 
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
+- [Samsung Note 10+](https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_10)
+  - The project used a **Samsung Note 10+** to test the site on a mobile device.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- [HP Envy x360 13](https://www.amazon.co.uk/HP-13-ar0001na-Touch-Screen-Convertible-Laptop/dp/B07V3J1H3V)
+  - The project used a **HP Envy x360 13** to test the site on both a 13 inch laptop and tablet.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I used the following web browsers on both desktop and mobile where available.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- [Mozilla Firefox](https://www.mozilla.org/en-GB/)
+
+- [Google Chrome](https://www.google.com/chrome/)
+
+- [Opera](https://www.opera.com/)
+
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge)
+
+The project was run through both [HTML Validation](https://validator.w3.org/) and [CSS Validation](https://jigsaw.w3.org/css-validator/validator) with no errors found.
+
+### User Story Tests
+
+1. Latest Club News:
+   1. Go to the "Home" page.
+   2. Scroll down to the "News" section.
+   3. View the four latest news articles.
+   4. Do this for both desktop and mobile views.
+
+2. League Table, Results and Fixtures:
+   1. Go to the "Results" page.
+   2. Scroll down to the "Midlands Division 4 West Table" section.
+   3. View the league table with Tenbury's position highlighted.
+   4. Scroll down to the "Results and Fixtures" section.
+   5. View the season results with wins and losses highlighted.
+   6. View the upcoming fixtures.
+   7. Do this for both desktop and mobile views.
+
+3. Contact Coaches:
+   1. Go to the "Contact" page.
+   2. Scroll down to the "New Players Always Welcome" section.
+   3. View the contact information and the google map, zoom in and out as much as you like.
+   4. Scroll down to the "Want To Get Involved?" section.
+   5. Try to submit the empty form and verify that an error message about the required fields appears.
+   6. Try to submit the form with an invalid email address and verify that a relevant error message appears.
+   7. Try to submit the form with all inputs valid.
+   8. Do this for both desktop and mobile views.
+
+4. View Current Squad:
+   1. Go to the "Squad" page.
+   2. Scroll down to the "Coaches" section.
+   3. View the coaches pictures and names.
+   4. Scroll down to the "Forwards" section.
+   5. View the players pictures, names and positions.
+   6. Scroll down to the "Backs" section.
+   7. View the players pictures, names and positions. 
+   8. Do this for both desktop and mobile views.
+
+## All test performed with no errors found.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/filleben/TenburyWellsRFC), the following steps were taken: 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+1. From the menu items near the top of the page, select **Settings**.
+2. Scroll down to the **GitHub Pages** section.
+3. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+4. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+5. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+ 
+To clone this project from GitHub:
 
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+1. Under the repository name, click "Clone or download".
+2. In the Clone with HTTPs section, copy the clone URL for the repository. 
+3. Open your IDE of choice.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/filleben/TenburyWellsRFC
+```
+6. Press Enter. Your local clone will be created.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
+
 
 ## Credits
 
 ### Content
 
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The news articles and contact information where taken from the clubs current [Pitchero Site](https://www.pitchero.com/clubs/tenburyrufc).
+- The navbar was taken from [Bootsnipp](https://bootsnipp.com/snippets/kl8Q3).
+
 
 ### Media
 
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from the clubs current [Pitchero Site](https://www.pitchero.com/clubs/tenburyrufc).
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from the clubs current [Pitchero Site](https://www.pitchero.com/clubs/tenburyrufc).
+- **Gerard McBride** for helping me through the project with his advice and guidance.
+- **[Richard Wells](https://github.com/D0nni387)** for hosting a call all about the readme.
+	
