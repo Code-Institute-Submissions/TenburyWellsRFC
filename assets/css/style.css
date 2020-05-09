@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700&display=swap');
 
 /*------header-*/
-header {
+.hero-image {
       width: 100%;
       height: 600px;
       background: url(https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F1701779%2Fimage_588f9d81f0321.jpg&o=jpg&q=70) no-repeat 50% 50%;
@@ -167,10 +167,6 @@ footer {
     background-color: #005214;
 }
 
-#footer-details {
-    padding: 20px;
-}
-
 /*------Blockdivider-*/
 
 .block-divider {
@@ -182,28 +178,19 @@ footer {
     margin-bottom: 20px;
 }
 
-/*------Subtitles-*/
+/*------Section Titles-*/
 
-.subtitle {
+.section-title {
+    font-family: "Roboto Condensed",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
     padding-top: 20px;
 }
 
 /*------Main elements-*/
 
-h2 {
-    font-family: "Roboto Condensed",sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-h3 {
-    font-family: "Roboto Condensed",sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-h4 {
+h3, h4 {
     font-family: "Roboto Condensed",sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -220,4 +207,11 @@ p {
 
 body {
     background-color: #d8d8d8;
+}
+
+/*-------font-*/
+
+.font {
+    font-family: "Roboto Condensed",sans-serif;
+    text-align: center;
 }

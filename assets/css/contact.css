@@ -1,15 +1,4 @@
-.text-block {
-  background-color: #000000;
-  color: #ffffff;
-  width: 240px;
-}
-
-div h4 {
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+/*------Contact Info-*/
 
 .new-players {
   font-family: "Roboto Condensed", sans-serif;
@@ -17,10 +6,15 @@ div h4 {
   font-size: 20px;
 }
 
+/*------iframe Map-*/
+
 .map {
   height: 400px;
   width: 100%;
+  border-style: none;
 }
+
+/*------contact form-*/
 
 .btn-contact {
   font-family: "Roboto Condensed", sans-serif;
@@ -42,13 +36,4 @@ div h4 {
     font-family: "Roboto Condensed",sans-serif;
     text-transform: uppercase;
     text-align: center;
-}
-
-.font {
-    font-family: "Roboto Condensed",sans-serif;
-    text-align: center;
-}
-
-.map {
-    border-style: none;
 }
