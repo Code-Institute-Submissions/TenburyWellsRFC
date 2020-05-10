@@ -73,7 +73,7 @@ The wireframes were made using [Balsamiq](https://balsamiq.cloud)
   - The project uses **CSS3** for styling.
 
 - [Bootstrap](https://getbootstrap.com/)
-  - The project uses **Bootstrap** for layout and responsiveness.
+  - The project uses **Bootstrap** for layout, responsiveness and elements.
 
 - [Hover.css](https://ianlunn.github.io/Hover/)
   - The project uses **Hover.css** for hover effects on links.
@@ -163,7 +163,7 @@ The project was run through both [HTML Validation](https://validator.w3.org/) an
    7. View the player's pictures, names, and positions. 
    8. Do this for both desktop and mobile views.
 
-## All tests performed with no errors found.
+### All tests performed with no errors found.
 
 ## Deployment
 
@@ -195,12 +195,13 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ### Content
 
 - The news articles and contact information where taken from the club's current [Pitchero Site](https://www.pitchero.com/clubs/tenburyrufc).
-- The navbar was taken from [Bootsnipp](https://bootsnipp.com/snippets/kl8Q3).
-
+- The navbar was taken and adapted from [Bootsnipp](https://bootsnipp.com/snippets/kl8Q3).
+- The code for the text blocks on the squad page was taken and adapted from [w3schools](https://www.w3schools.com/howto/howto_css_image_text_blocks.asp)
 
 ### Media
 
-- The photos used in this site were obtained from the club's current [Pitchero Site](https://www.pitchero.com/clubs/tenburyrufc).
+- The images used in this site were obtained from the club's current [Pitchero Site](https://www.pitchero.com/clubs/tenburyrufc).
+- The images used in this site are hosted by the club's current [Pitchero Site](https://www.pitchero.com/clubs/tenburyrufc).
 
 ### Acknowledgements
 
