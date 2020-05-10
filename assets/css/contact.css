@@ -25,6 +25,14 @@
   text-align: center;
 }
 
+.btn-contact:hover,
+.btn-contact:active,
+.btn-contact:focus,
+.btn-contact:active:focus {
+    background-color: #005214;
+    border-color: #005214;
+}
+
 .contact-title {
     margin-top: 20px;
     font-family: "Roboto Condensed",sans-serif;
