@@ -1,27 +1,24 @@
 /*------Buttons-*/
 
-.btn-green {
-    background-color: #005214;
-    border-color: #005214;
-}
-
-.button {
+.read-more {
     text-align: center;
     padding-bottom: 20px;
-}
-
-.btn-green:hover,
-.btn-green:active,
-.btn-green:focus,
-.btn-green:active:focus {
-    background-color: #005214;
-    border-color: #005214;
-}
-
-.read-more {
     font-family: "Roboto Condensed",sans-serif;
     text-align: center;
     text-transform: uppercase;
+}
+
+.btn-readmore {
+    background-color: #005214;
+    border-color: #005214;
+}
+
+.btn-readmore:hover,
+.btn-readmore:active,
+.btn-readmore:focus,
+.btn-readmore:active:focus {
+    background-color: #005214;
+    border-color: #005214;
 }
 
 /*------Sponsors-*/
