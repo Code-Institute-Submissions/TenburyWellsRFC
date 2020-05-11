@@ -168,6 +168,7 @@ The project was run through both [HTML Validation](https://validator.w3.org/) an
 ### Issues Found During Testing
 
 - Sponsor images were not centered on smaller displays, fixed by adding "text-align: center;" to the "sponsor-image" class.
+- Navbar menu items were cut off when viewing the site horizontally on mobile devices, fixed by adding a horizontal media rule which aligns the menu items horizontally instead of vertically.
 
 ## Deployment
 
