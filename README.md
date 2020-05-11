@@ -165,7 +165,9 @@ The project was run through both [HTML Validation](https://validator.w3.org/) an
 
 ### All tests performed with no errors found.
 
-After running the project through both the HTML and CSS validation, there were no new erros or bugs found.
+### Issues Found During Testing
+
+- Sponsor images were not centered on smaller displays, fixed by adding "text-align: center;" to the "sponsor-image" class.
 
 ## Deployment
 
