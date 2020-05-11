@@ -89,36 +89,6 @@ nav ul li {
       display: none;
 }
 
-/*------navbar mobile taken from https://bootsnipp.com/snippets/kl8Q3 -*/
-
-@media(max-width: 786px) {
-
-      nav ul {
-            max-height: 0px;
-            background: #000;
-      }
-
-      nav.black ul {
-            background: #000;
-      }
-
-      .showing {
-            max-height: 34em;
-      }
-
-      nav ul li {
-            box-sizing: border-box;
-            width: 100%;
-            padding: 24px;
-            text-align: center;
-      }
-
-      .menu-icon {
-            display: block;
-      }
-
-}
-
 /*------footer-*/
 
 footer {
@@ -210,4 +180,56 @@ body {
 .font {
     font-family: "Roboto Condensed",sans-serif;
     text-align: center;
+}
+
+/*------navbar mobile taken from https://bootsnipp.com/snippets/kl8Q3 and adapted for the project-*/
+
+
+@media only screen and (orientation: landscape) and (max-width: 768px) {
+ 
+    nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+     .menu-icon {
+            display: block;
+      }
+
+}
+
+@media only screen and (orientation: portrait) and (max-width: 768px) {
+ 
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+    nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+     .menu-icon {
+            display: block;
+      }
+
 }
