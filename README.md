@@ -165,6 +165,8 @@ The project was run through both [HTML Validation](https://validator.w3.org/) an
 
 ### All tests performed with no errors found.
 
+After running the project through both the HTML and CSS validation, there were no new erros or bugs found.
+
 ## Deployment
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/filleben/TenburyWellsRFC), the following steps were taken: 
@@ -187,8 +189,7 @@ git clone https://github.com/filleben/TenburyWellsRFC
 ```
 6. Press Enter. Your local clone will be created.
 
-Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
-
+Further reading and troubleshooting on cloning a repository from GitHub can be found [here](https://help.github.com/en/articles/cloning-a-repository).
 
 ## Credits
 
