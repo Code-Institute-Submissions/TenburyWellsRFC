@@ -12,6 +12,7 @@
   border-radius: 0.5rem;
 }
 
+/*------Player Names and Position Styling-*/
 .name {
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
@@ -26,11 +27,12 @@
   font-weight: bold;
 }
 
+/*------Player Images Styling-*/
 .squad-image {
   border-radius: 0.5rem;
 }
 
-/*------Image carousel--*/
+/*------Image carousel Styling--*/
 
 .carousel-image {
   width: auto;

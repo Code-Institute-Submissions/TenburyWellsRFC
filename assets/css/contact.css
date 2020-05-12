@@ -1,4 +1,12 @@
-/*------Contact Info-*/
+/*------Title Text-*/
+
+.contact-title {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*------Paragraph Text Styling-*/
 
 .new-players {
   font-family: "Roboto Condensed", sans-serif;
@@ -14,21 +22,7 @@
   border-style: none;
 }
 
-/*------contact form-*/
-
-.contact-title {
-  font-family: "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.contact-subtitle {
-  font-family: "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-/*------contact button-*/
+/*------Contact Button-*/
 
 .btn-contact {
   font-family: "Roboto Condensed", sans-serif;
@@ -38,6 +32,8 @@
   border-color: #005214;
   text-align: center;
 }
+
+/*------Contact Button When Hovering/Clicked-*/
 
 .btn-contact:hover,
 .btn-contact:active,

@@ -1,4 +1,4 @@
-/*------League Table-*/
+/*------Table Font Styling-*/
 
 .font {
   font-family: "Roboto Condensed", sans-serif;
@@ -7,11 +7,10 @@
   text-decoration: none;
 }
 
+/*------Table Row Highlighting-*/
 .highlight {
   background-color: #90ee90;
 }
-
-/*------Results/Fixtures Table-*/
 
 .loss {
   background-color: #ffc6c4;

@@ -1,4 +1,4 @@
-/*------Buttons-*/
+/*------Button Text Styling-*/
 
 .read-more {
   text-align: center;
@@ -7,11 +7,14 @@
   text-transform: uppercase;
 }
 
+/*------Read More Button-*/
 .btn-readmore {
   background-color: #005214;
   border-color: #005214;
 }
 
+
+/*------Read More Button When Hovering/Clicked-*/
 .btn-readmore:hover,
 .btn-readmore:active,
 .btn-readmore:focus,
@@ -20,7 +23,7 @@
   border-color: #66cd00;
 }
 
-/*------Sponsors-*/
+/*------Sponsor Image-*/
 
 .sponsor-image {
   height: auto;
