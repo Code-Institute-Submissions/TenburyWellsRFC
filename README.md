@@ -241,7 +241,8 @@ Further reading and troubleshooting on cloning a repository from GitHub can be f
 
 - The news articles and contact information where taken from the club's current [Pitchero Site](https://www.pitchero.com/clubs/tenburyrufc).
 - The navbar was taken and adapted from [Bootsnipp](https://bootsnipp.com/snippets/kl8Q3).
-- The code for the text blocks on the squad page was taken and adapted from [w3schools](https://www.w3schools.com/howto/howto_css_image_text_blocks.asp)
+- The code for the text blocks on the squad page was taken and adapted from [w3schools](https://www.w3schools.com/howto/howto_css_image_text_blocks.asp).
+- The code for the modal on the contact page was taken and adapted from [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_modal.asp).
 
 ### Media
 
@@ -253,4 +254,5 @@ Further reading and troubleshooting on cloning a repository from GitHub can be f
 - I received inspiration for this project from the club's current [Pitchero Site](https://www.pitchero.com/clubs/tenburyrufc).
 - **Gerard McBride** for helping me through the project with his advice and guidance.
 - **[Richard Wells](https://github.com/D0nni387)** for hosting a call all about the readme.
+- **[Paul Friel](https://github.com/Spagettileg/)** for giving detialed feedback and sharing his testing spreadsheet.
     
