@@ -26,7 +26,7 @@ I expect that the majority of the users will fall into the following criteria:
 
 ### Wireframes
 
-[Here](https://github.com/filleben/TenburyWellsRFC/tree/master/assets/wireframes/initial-designs) are the initial designs I made for the site.
+[Here](https://github.com/filleben/TenburyWellsRFC/tree/master/wireframes/initial-designs) are the initial designs I made for the site.
 
 When I was making the site I made a few design changes which I believe improved both the visuals and ease of use. The major changes are:
 
@@ -35,7 +35,7 @@ When I was making the site I made a few design changes which I believe improved 
 - Added an image carousel to the squad page.
 - Added the 4th page with contact information, map, and a contact form.
 
-The final designs of the site can be found [here](https://github.com/filleben/TenburyWellsRFC/tree/master/assets/wireframes/final-designs)
+The final designs of the site can be found [here](https://github.com/filleben/TenburyWellsRFC/tree/master/wireframes/final-designs)
 
 The wireframes were made using [Balsamiq](https://balsamiq.cloud)
 
