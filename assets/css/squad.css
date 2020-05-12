@@ -2,16 +2,15 @@
 
 .container {
   padding-bottom: 20px;
-  text-align: center; 
+  text-align: center;
 }
-
 
 .text-block {
   background-color: #000000;
   color: #ffffff;
   width: 240px;
   margin: auto;
-  border-radius: 0.5rem
+  border-radius: 0.5rem;
 }
 
 .name {
@@ -29,30 +28,28 @@
 }
 
 .squad-image {
-    border-radius: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 /*------Image carousel--*/
 
 .carousel-image {
-    width:auto;
-    height: 650px;
+  width: auto;
+  height: 650px;
 }
 
 /*------Image carousel Mobile--*/
 
-@media(max-width: 1000px) {
-
-.carousel-image {
-    width:auto;
+@media (max-width: 1000px) {
+  .carousel-image {
+    width: auto;
     height: 300px;
-}
+  }
 }
 
-@media(max-width: 700px) {
-
-.carousel-image {
-    width:auto;
+@media (max-width: 700px) {
+  .carousel-image {
+    width: auto;
     height: 250px;
-}
+  }
 }

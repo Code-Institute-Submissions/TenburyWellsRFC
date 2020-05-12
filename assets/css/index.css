@@ -1,31 +1,31 @@
 /*------Buttons-*/
 
 .read-more {
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: "Roboto Condensed",sans-serif;
-    text-align: center;
-    text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .btn-readmore {
-    background-color: #005214;
-    border-color: #005214;
+  background-color: #005214;
+  border-color: #005214;
 }
 
 .btn-readmore:hover,
 .btn-readmore:active,
 .btn-readmore:focus,
 .btn-readmore:active:focus {
-    background-color: #66CD00;
-    border-color: #66CD00;
+  background-color: #66cd00;
+  border-color: #66cd00;
 }
 
 /*------Sponsors-*/
 
 .sponsor-image {
-    height: auto;
-    width: 160px;
-    padding: 20px 20px 40px 20px;
-    text-align: center;
+  height: auto;
+  width: 160px;
+  padding: 20px 20px 40px 20px;
+  text-align: center;
 }

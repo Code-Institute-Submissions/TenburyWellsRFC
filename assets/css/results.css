@@ -1,23 +1,22 @@
 /*------League Table-*/
 
 .font {
-    font-family: "Roboto Condensed",sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .highlight {
-    background-color: #90ee90;
+  background-color: #90ee90;
 }
 
 /*------Results/Fixtures Table-*/
 
 .loss {
-    background-color: #ffc6c4;
+  background-color: #ffc6c4;
 }
 
 .win {
-    background-color: #90ee90;
+  background-color: #90ee90;
 }
-
