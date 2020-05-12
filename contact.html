@@ -75,18 +75,52 @@
                 Do not hesitate to contact us. Training sessions are every
                 Tuesdays & Thursdays 19.00 at Palmers Meadow.
               </p>
-              <p class="new-players">
-                Penlu,<br />Worcester Road,<br />Tenbury Wells,<br />Worcestershire,<br />WR15
-                8AP
-              </p>
-              <p class="new-players">
-                <i class="fas fa-phone"></i> 01584 891355
-              </p>
-              <p class="new-players">
-                <i class="fas fa-phone"></i> 07970 012436
-              </p>
+
+              <!--Modal taken from https://www.w3schools.com/bootstrap4/bootstrap_modal.asp and then adapted for the project-->
+              <!-- Button to Open the Modal -->
+              <div class="text-center pb-4">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-contact"
+                  data-toggle="modal"
+                  data-target="#contactModal"
+                >
+                  Contact Details
+                </button>
+              </div>
+
+              <!-- The Modal -->
+              <div class="modal fade" id="contactModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Contact Details</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p class="new-players">
+                        Penlu<br />Worcester Road<br />Tenbury Wells<br />Worcestershire<br />WR15
+                        8AP
+                      </p>
+                      <p class="new-players">
+                        <i class="fas fa-phone"></i> 01584 891355
+                      </p>
+                      <p class="new-players">
+                        <i class="fas fa-phone"></i> 07970 012436
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="col-md-6">
+              
               <!--iframe map-->
               <iframe
                 class="map"
