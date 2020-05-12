@@ -1,10 +1,23 @@
-# Tenbury Wells RFC - Milestone 1 Project
+# Tenbury Wells RFC
 
 ![Site Preview](assets/images/tenburyrfc-preview.png)
 ---
 
+[Project Repository](https://github.com/filleben/TenburyWellsRFC)
+[Deployed Site](https://filleben.github.io/TenburyWellsRFC/)
+
 This project is for my local rugby team based in Tenbury Wells, they currently use a generic Pitchero site like many other clubs around them. The goal of this project is to make the club stand out with their site, as well as providing clear information for users, such as upcoming fixtures and results, club news, squad details and include contact details for any interested players, fans or sponsors.
 
+## Table of Contents
+
+- <a href="#ux">UX</a>
+- <a href="#features">Features</a>
+- <a href="#technologies">Technologies Used</a>
+- <a href="#testing">Testing</a>
+- <a href="#deployment">Deployment</a>
+- <a href="#credits">Credits</a>
+
+<span id="ux"></span>
 ## UX
 
 ### User Goals
@@ -45,6 +58,7 @@ The wireframes were made using [Balsamiq](https://balsamiq.cloud)
 
 - **Colours**: I wanted the site to follow the Tenbury kit colors which are white black and green, I used white as a background color with black text, dark green (#005214) for things like the block divider, title text, and buttons, with a lighter green (#90ee90) for highlight text. Upon completion of the site I received feedback suggesting to change the background color as it was very bright and therefor difficult on the eyes, so I decided to change the background color from white to light grey (#d8d8d8). With this change, I also edited the sponsor images to better fit with the new background color and uploaded them to the repository.
 
+<span id="features"></span>
 ## Features
 
 - **Navigation bar**: Allows the user to navigate to all the pages of the site, consistent throughout the site.
@@ -64,6 +78,7 @@ The wireframes were made using [Balsamiq](https://balsamiq.cloud)
 - Add player stats to the squad page could potentially add a page for each player.
 - Fixtures, Results, and League Table to automatically pull information from the RFU website.
 
+<span id="technologies"></span>
 ## Technologies Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -99,6 +114,7 @@ The wireframes were made using [Balsamiq](https://balsamiq.cloud)
 - [GitHub](https://github.com/)
   - The project uses **GitHub** to host the repository and for the live preview of the site.
 
+<span id="testing"></span>
 ## Testing
 
 ### Testing Tools
@@ -170,6 +186,7 @@ The project was run through both [HTML Validation](https://validator.w3.org/) an
 - Sponsor images were not centered on smaller displays, fixed by adding "text-align: center;" to the "sponsor-image" class.
 - Navbar menu items were cut off when viewing the site horizontally on mobile devices, fixed by adding a horizontal media rule which aligns the menu items horizontally instead of vertically.
 
+<span id="deployment"></span>
 ## Deployment
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/filleben/TenburyWellsRFC), the following steps were taken: 
@@ -194,6 +211,7 @@ git clone https://github.com/filleben/TenburyWellsRFC
 
 Further reading and troubleshooting on cloning a repository from GitHub can be found [here](https://help.github.com/en/articles/cloning-a-repository).
 
+<span id="credits"></span>
 ## Credits
 
 ### Content
