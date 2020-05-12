@@ -6,6 +6,7 @@
 ## [Project Repository](https://github.com/filleben/TenburyWellsRFC)
 
 ## [Deployed Site](https://filleben.github.io/TenburyWellsRFC/)
+---
 
 This project is for my local rugby team based in Tenbury Wells, they currently use a generic Pitchero site like many other clubs around them. The goal of this project is to make the club stand out with their site, as well as providing clear information for users, such as upcoming fixtures and results, club news, squad details and include contact details for any interested players, fans or sponsors.
 
@@ -57,7 +58,7 @@ The wireframes were made using [Balsamiq](https://balsamiq.cloud)
 
 - **Font**: I wanted to use a single minimal font throughout the site, with this in mind I decided to use [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed?query=robot) from [Google Fonts](https://fonts.google.com/).
 
-- **Colours**: I wanted the site to follow the Tenbury kit colors which are white black and green, I used white as a background color with black text, dark green (#005214) for things like the block divider, title text, and buttons, with a lighter green (#90ee90) for highlight text. Upon completion of the site I received feedback suggesting to change the background color as it was very bright and therefor difficult on the eyes, so I decided to change the background color from white to light grey (#d8d8d8). With this change, I also edited the sponsor images to better fit with the new background color and uploaded them to the repository.
+- **Colours**: I wanted the site to follow the Tenbury kit colors which are white black and green, I used white as a background color with black text, dark green (Hex:'#005214' RGB:'rgb(0, 82, 20)') for things like the block divider, title text, and buttons, with a lighter green (Hex:'#90ee90' RGB:'rgb(144, 238, 144)') for highlighting text and button hovering. Upon completion of the site I received feedback suggesting to change the background color as it was very bright and therefor difficult on the eyes, so I decided to change the background color from white to light grey (Hex:'#d8d8d8' RGB:'rgb(216, 216, 216)'). With this change, I also edited the sponsor images to better fit with the new background color and uploaded them to the repository.
 
 <span id="features"></span>
 ## Features
