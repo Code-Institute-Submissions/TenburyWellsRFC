@@ -145,8 +145,6 @@ footer {
   height: 5px;
   border: 0;
   background-color: #005214;
-  margin: auto;
-  margin-bottom: 20px;
 }
 
 /*------Section Titles-*/
@@ -156,7 +154,6 @@ footer {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 20px;
 }
 
 /*------Main elements-*/
