@@ -45,7 +45,7 @@ I expect that the majority of the users will fall into the following criteria:
 
 When I was making the site I made a few design changes which I believe improved both the visuals and ease of use. The major changes are:
 
-- Removed the title text and centered the navbar on all pages.
+- Removed the title text and centred the navbar on all pages.
 - Moved the results and fixtures to below the league table on the results page.
 - Added an image carousel to the squad page.
 - Added the 4th page with contact information, map, and a contact form.
@@ -58,7 +58,7 @@ The wireframes were made using [Balsamiq](https://balsamiq.cloud)
 
 - **Font**: I wanted to use a single minimal font throughout the site, with this in mind I decided to use [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed?query=robot) from [Google Fonts](https://fonts.google.com/).
 
-- **Colours**: I wanted the site to follow the Tenbury kit colors which are white black and green, I used white as a background color with black text, dark green (Hex:'#005214' RGB:'rgb(0, 82, 20)') for things like the block divider, title text, and buttons, with a lighter green (Hex:'#90ee90' RGB:'rgb(144, 238, 144)') for highlighting text and button hovering. Upon completion of the site I received feedback suggesting to change the background color as it was very bright and therefor difficult on the eyes, so I decided to change the background color from white to light grey (Hex:'#d8d8d8' RGB:'rgb(216, 216, 216)'). With this change, I also edited the sponsor images to better fit with the new background color and uploaded them to the repository.
+- **Colours**: I wanted the site to follow the Tenbury kit colours which are white black and green, I used white as a background colour with black text, dark green (Hex: '#005214' RGB: 'rgb(0, 82, 20)') for things like the block divider, title text, and buttons, with a lighter green (Hex: '#90ee90' RGB: 'rgb(144, 238, 144)') for highlighting text and button hovering. Upon completion of the site I received feedback suggesting to change the background colour as it was very bright and therefor difficult on the eyes, so I decided to change the background colour from white to light grey (Hex: '#d8d8d8' RGB: 'rgb(216, 216, 216)'). With this change, I also edited the sponsor images to better fit with the new background colour and uploaded them to the repository.
 
 <span id="features"></span>
 ## Features
@@ -206,7 +206,7 @@ Tests carried out have been documented and visualised [here](https://github.com/
 
 ### Issues Found During Testing
 
-- Sponsor images were not centered on smaller displays, fixed by adding "text-align: center;" to the "sponsor-image" class.
+- Sponsor images were not centred on smaller displays, fixed by adding "text-align: centre;" to the "sponsor-image" class.
 - Navbar menu items were cut off when viewing the site horizontally on mobile devices, fixed by adding a horizontal media rule which aligns the menu items horizontally instead of vertically.
 
 <span id="deployment"></span>
@@ -216,7 +216,7 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 
 1. From the menu items near the top of the page, select **Settings**.
 2. Scroll down to the **GitHub Pages** section.
-3. Under **Source** click the drop-down menu labeled **None** and select **Master Branch**
+3. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
 4. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
 5. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
  
@@ -254,5 +254,5 @@ Further reading and troubleshooting on cloning a repository from GitHub can be f
 - I received inspiration for this project from the club's current [Pitchero Site](https://www.pitchero.com/clubs/tenburyrufc).
 - **Gerard McBride** for helping me through the project with his advice and guidance.
 - **[Richard Wells](https://github.com/D0nni387)** for hosting a call all about the readme.
-- **[Paul Friel](https://github.com/Spagettileg/)** for giving detialed feedback and sharing his testing spreadsheet.
+- **[Paul Friel](https://github.com/Spagettileg/)** for giving detailed feedback and sharing his testing spreadsheet.
     
