@@ -3,8 +3,9 @@
 ![Site Preview](assets/images/tenburyrfc-preview.png)
 ---
 
-[Project Repository](https://github.com/filleben/TenburyWellsRFC)
-[Deployed Site](https://filleben.github.io/TenburyWellsRFC/)
+## [Project Repository](https://github.com/filleben/TenburyWellsRFC)
+
+## [Deployed Site](https://filleben.github.io/TenburyWellsRFC/)
 
 This project is for my local rugby team based in Tenbury Wells, they currently use a generic Pitchero site like many other clubs around them. The goal of this project is to make the club stand out with their site, as well as providing clear information for users, such as upcoming fixtures and results, club news, squad details and include contact details for any interested players, fans or sponsors.
 
